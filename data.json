@@ -1,0 +1,28 @@
+{
+   "pokemons":[
+      {
+         "id":"1",
+         "name":"Bulbasaur",
+         "type":"grass",
+         "description":"Bulbasaur is a small, quadruped Pokémon that has blue-green skin with darker green patches. It has red eyes with white pupils and scleras and pointed, ear-like structures on top of its head."
+      },
+      {
+         "id":"2",
+         "name":"Pikachu",
+         "type":"electric",
+         "description":"Pikachu is a short, chubby rodent Pokémon. It is covered in yellow fur with two horizontal brown stripes on its back. It has a small mouth, long, pointed ears with black tips, brown eyes, and two red circles on its cheeks. There are pouches inside its cheeks where it stores electricity."
+      },
+      {
+         "id":"3",
+         "name":"Charmander",
+         "type":"fire",
+         "description":"Charmander is a bipedal, reptilian Pokémon with a primarily orange body. Its underside from the chest down and soles are cream-colored. It has two small fangs visible in its upper jaw and two smaller fangs in its lower jaw."
+      },
+      {
+         "id":"4",
+         "name":"Squirtle",
+         "type":"water",
+         "description":"Squirtle is a small Pokémon that resembles a light blue turtle. While it typically walks on its two short legs, it has been shown to run on all fours in Super Smash Bros. Brawl. It has large brown eyes and a slightly hooked upper lip. "
+      }
+   ]
+}

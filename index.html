@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="pokemonApp" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+ 	<!--bootstrap css -->
+ 		<link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+ 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+ 		<link rel="stylesheet" type="text/css" href="style.css">
+
+ 		
+
+ 		<title>DwarfPlanet Challange</title>
+
+		</head>
+
+		<body ng-controller="PokemonController">
+
+		    <div ng-show="popup" id="popup" class="popup panel panel-primary">
+    		<div class="panel-footer">
+            <button ng-click="closePopup()" id="close" class="btn btn-lg btn-primary">X</button>
+            <div class="text">
+            	<p>{{selectedPokemon.description}}</p>
+        		</div>             
+    			</div>
+    		</div>
+
+
+		<div ng-repeat="item in pokemons" class="item">
+			<img src="img/pokemon_{{item.id}}.jpg">
+			<div class="text">
+				<p>{{item.description}}</p>
+				<button ng-click="openPopup(item)">{{item.name}}</button>
+			</div>
+		</div>
+
+
+				<script src="js/angular.min.js"></script>
+				<script src="js/jquery-3.1.1.min.js"></script>
+				<script src="js/bootstrap.min.js"></script>
+				<script src="js/bootstrap.js"></script>
+				<script src="js/main.js"></script>
+
+
+			</body>
+
+
+
+	</html>
